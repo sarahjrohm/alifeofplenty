@@ -23,6 +23,14 @@ body {
 }
 
 
+#paginate { 
+  font-family: helvetica;
+}
+
+a:hover{ 
+  text-decoration: none;
+  color: #500000;
+}
 
 
 #page_container{
@@ -60,12 +68,14 @@ h1#page_heading{
 }
 
 h2{
-  font-size: 1.4em;
-  color: #880000;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 0px;
 }
 
 h2 a, h3, h4, h5{
-  color: #880000;
+  color: black;
 }
 
 /* Text */
@@ -97,9 +107,6 @@ small a, label a{
   text-decoration: underline;
 }
 
-a:hover{
-  text-decoration: underline;    
-}
   
 #footer a{
   color: gray;
@@ -178,6 +185,7 @@ img{
 
 #menu h2{
   display: inline;
+  color: black;
 }
 
 
@@ -201,7 +209,7 @@ img{
 #menu h3{
   font-size: 1.2em;
   font-weight: bold;
-  font-family: verdana,arial,helvetica,sans-serif;
+  font-family: helvetica,arial,helvetica,sans-serif;
 }
 
 #menu input{
@@ -259,10 +267,6 @@ div.meta{
 
 .meta ul li:last-child:after{
   content: "";
-}
-
-h2{
-  margin-bottom: 0px;
 }
 
 .separator {
