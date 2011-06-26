@@ -1,7 +1,7 @@
 # Configuration options for your blog - customise to taste
 # This file contains no secret information, so can be stored in source control (unlike database.yml)
-title:    A Life of Plenty
-url:    http://alifeofplenty.heroku.com/
+title:    Scrap
+url:    http://stark-day-519.heroku.com/
 author:
   name: Sarah Rohm 
   email: sarahjrohm@gmail.com
