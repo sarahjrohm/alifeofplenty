@@ -1,4 +1,8 @@
 Enki::Application.routes.draw do
+
+  match '/contact', :to => 'pages#contact'
+  match '/about',   :to => 'pages#about'
+
   namespace 'admin' do
     resource :session
 
