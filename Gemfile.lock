@@ -45,6 +45,8 @@ GEM
     erubis (2.6.6)
       abstract (>= 1.0.0)
     factory_girl (1.3.3)
+    faker (0.9.5)
+      i18n (~> 0.4)
     formtastic (1.2.3)
       actionpack (>= 2.3.7)
       activesupport (>= 2.3.7)
@@ -63,6 +65,7 @@ GEM
     mime-types (1.16)
     nokogiri (1.4.4)
     polyglot (0.3.1)
+    populator (1.0.0)
     rack (1.2.1)
     rack-mount (0.6.13)
       rack (>= 1.0.0)
@@ -122,9 +125,11 @@ DEPENDENCIES
   coderay
   cucumber-rails
   factory_girl
+  faker
   formtastic
   hpricot
   lesstile
+  populator
   rack-openid
   rails (= 3.0.4)
   rspec
