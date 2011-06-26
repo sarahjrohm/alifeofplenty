@@ -13,17 +13,19 @@
 
       <div id= "header">
       <h1> A Life of Plenty </h1>
-      </div>
-<body>
-  <div id="page_container">
-          <div id="navigation">
-        <h2>Pages</h2>
+                <div id="navigation">
         <ul>
           <% page_links_for_navigation.each do |link| -%>
             <li><%= link_to(link.name, link.url) %></li>
           <% end -%>
         </ul>
+          </div>
+      </div>
+<body>
+  <div id="page_container">
+
         <% unless category_links_for_navigation.empty? -%>
+        <div id= "menu">
           <h2>Categories</h2>
           <ul>
             <% category_links_for_navigation.each do |link| -%>
