@@ -27,6 +27,13 @@ body {
   font-family: helvetica;
 }
 
+.entrybody { 
+  font-family: helvetica;
+  font-weight: 100;
+  width: 710px;
+}
+
+
 a:hover{ 
   text-decoration: none;
   color: #500000;
@@ -74,7 +81,7 @@ h2{
   margin-bottom: 0px;
 }
 
-h2 a, h3, h4, h5{
+h2 h3, h4, h5{
   color: black;
 }
 
