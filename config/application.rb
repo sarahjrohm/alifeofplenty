@@ -12,7 +12,8 @@ YAML::ENGINE.yamler = "syck" if YAML.const_defined?("ENGINE")
 Bundler.require(:default, Rails.env) if defined?(Bundler)
 
 module Enki
-  class Application < Rails::Application  Paperclip::Railtie.insert
+  class Application < Rails::Application
+    Paperclip::Railtie.insert
      config.autoload_paths += %W( #{config.root}/app/models/ckeditor )
     
     # Settings in config/environments/* take precedence over those specified here.
