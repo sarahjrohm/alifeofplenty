@@ -13,4 +13,11 @@ class PostsController < ApplicationController
     @post = Post.find_by_permalink(*([:year, :month, :day, :slug].collect {|x| params[x] } << {:include => [:approved_comments, :tags]}))
     @comment = Comment.new
   end
+  
+  def rss
+  @posts = Post.find(:all, :order => "id DESC", :limit => 10)
+  render :layout => false
+  response.headers["Content-Type"] = "application/xml; charset=utf-8"
+  end
+  
 end
