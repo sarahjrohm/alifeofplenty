@@ -1,3 +1,12 @@
+GIT
+  remote: http://github.com/thoughtbot/paperclip.git
+  revision: 3695eaf302abd8da1b341529b53150710c74bf2c
+  specs:
+    paperclip (2.3.10)
+      activerecord (>= 2.3.0)
+      activesupport (>= 2.3.2)
+      cocaine (>= 0.0.2)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -34,6 +43,7 @@ GEM
     builder (2.1.2)
     ckeditor (3.4.3.pre)
       mime-types (>= 1.16)
+    cocaine (0.1.0)
     coderay (0.9.7)
     cucumber (0.10.0)
       builder (>= 2.1.2)
@@ -132,6 +142,7 @@ DEPENDENCIES
   formtastic
   hpricot
   lesstile
+  paperclip!
   populator
   rack-openid
   rails (= 3.0.4)
