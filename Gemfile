@@ -9,8 +9,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'faker'
 gem 'populator'
 gem 'will_paginate', '3.0.pre2'
-gem 'ckeditor', '3.4.3.pre'
-gem 'paperclip', :git => 'http://github.com/minter/paperclip.git'
+
 
 # Use unicorn as the web server
 # gem 'unicorn'
