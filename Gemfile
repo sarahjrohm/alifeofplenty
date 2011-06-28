@@ -9,7 +9,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'faker'
 gem 'populator'
 gem 'will_paginate', '3.0.pre2'
-
+gem 'mail'
 
 # Use unicorn as the web server
 # gem 'unicorn'

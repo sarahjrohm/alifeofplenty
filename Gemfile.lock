@@ -129,6 +129,7 @@ DEPENDENCIES
   formtastic
   hpricot
   lesstile
+  mail
   populator
   rack-openid
   rails (= 3.0.4)
