@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
   def index
     @tag = params[:tag]
-    @posts = Post.paginate :page => params[:page], :order => 'published_at DESC', :per_page=>5 
+    @posts = Post.find_recent(:tag => @tag, :include => :tags).paginate(:page => params[:page], :order => 'published_at DESC', :per_page=>5)
 
     respond_to do |format|
       format.html
