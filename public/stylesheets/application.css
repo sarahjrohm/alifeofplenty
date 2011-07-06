@@ -37,8 +37,11 @@ body {
 .entrybody { 
   font-family: helvetica;
   font-weight: 100;
-  padding-right: 5px;
+  padding: 1px 10px 5px 10px;
+  margin: 0 30px 0 30px;
   text-align: justify;
+  background-color: #FEFDF2;
+  border-radius: 5px;
 }
 
 
@@ -59,6 +62,7 @@ a:hover{
 #content{
   float: left;
   background-color: white;
+  border-radius: 10px;
   margin-left: 195px;
   padding-left: 5px;
   min-width: 710px;
@@ -141,6 +145,7 @@ img{
   width:500px;
   height:30px;
   background-color:white;
+  border-radius: 0px;
   font-size: 20px;
 }
 
@@ -192,6 +197,7 @@ img{
 
 #menu {
   background-color: white;
+  border-radius: 5px;
   width: 15em;
   float:left;
   top: -1px; 
