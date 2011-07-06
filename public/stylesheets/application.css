@@ -37,8 +37,12 @@ body {
 .entrybody { 
   font-family: helvetica;
   font-weight: 100;
-  padding-right: 5px;
+  padding: 5px 10px 5px 10px;
   text-align: justify;
+  background-color: #FBFEF2;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right:10px;
 }
 
 
@@ -63,7 +67,7 @@ a:hover{
   padding-left: 5px;
   min-width: 710px;
   position: absolute;
-  width: 80%;
+  width: 75%;
 }
 
 #footer{
@@ -131,7 +135,7 @@ small a, label a{
 }
 
 img{
-  border: solid 1px black;
+  padding: 5px 5px 5px 5px;
 }
 
 /* Two columns */
@@ -240,10 +244,9 @@ img{
 }
 
 #main {
-  padding-right: 5px;
-  padding-left: 0px;
-  padding-top: 0px;
-  padding-bottom: 40px;
+  padding: 0px 15px 40px 10px;
+ 
+ 
 }
 
 div.meta{
@@ -260,6 +263,7 @@ div.meta{
   display: inline;
   color: #cccccc;
 	font-size: 9pt;
+  float: right;
 }
 .archive-month .tags{
   color: #bbbbbb;
