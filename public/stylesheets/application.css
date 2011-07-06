@@ -46,6 +46,32 @@ body {
 }
 
 
+
+.commentlist li{ 
+  list-style: none;
+  background-color:white;
+  width:80%;
+  margin-left: 50px;
+}
+
+.commentlist h3{ 
+  border-color:black;
+  background-color: white;
+  margin-left: -20px;
+  font-weight: 500;
+}
+.commentlist h3 a{ 
+  float:right;
+  font-size:10px;
+}
+
+.commentlist p{ 
+  font-weight: 100;
+  margin-right: 25px;
+}
+  
+
+
 a:hover{ 
   text-decoration: none;
   color: #500000;
@@ -360,7 +386,7 @@ span.error{
   }
   
 hr{
-  border-top: dotted 1px black;
+  border-top: outset 1px azure4;
   border-bottom: none;
   height: 1px;
 }
