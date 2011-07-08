@@ -37,19 +37,11 @@ body {
 .entrybody { 
   font-family: helvetica;
   font-weight: 100;
-<<<<<<< HEAD
   padding: 1px 10px 5px 10px;
   margin: 0 30px 0 30px;
   text-align: justify;
   background-color: #FEFDF2;
   border-radius: 5px;
-=======
-  padding: 5px 10px 5px 10px;
-  text-align: justify;
-  background-color: #FBFEF2;
-  border-radius: 5px;
-  margin-left: 10px;
-  margin-right:10px;
 }
 
 
@@ -66,8 +58,8 @@ body {
   background-color: white;
   margin-left: -20px;
   font-weight: 500;
->>>>>>> layout
 }
+
 .commentlist h3 a{ 
   float:right;
   font-size:10px;
@@ -77,7 +69,11 @@ body {
   font-weight: 100;
   margin-right: 25px;
 }
-  
+
+
+.map { 
+  text-align: center;
+}  
 
 
 a:hover{ 
@@ -100,7 +96,7 @@ a:hover{
   border-radius: 10px;
   margin-left: 195px;
   padding-left: 5px;
-  min-width: 710px;
+  min-width: 800px;
   position: absolute;
   width: 75%;
 }
@@ -343,7 +339,7 @@ textarea, select{
 }
 
 textarea{
-  width: 500px;
+  width: 700px;
 }
 
 #project_summary{
