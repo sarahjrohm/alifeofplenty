@@ -1,0 +1,10 @@
+
+ <h2><%= link_to(post.title, post_path(post)) %></h2>
+
+ <% if post.body.include?('<img')%>
+      <%= render :partial => '/posts/extractpicture' %>
+      <%= render :partial => 'postsummarize', :locals => {:post => post} %>
+<%else%>
+  <%= render :partial => 'postsummarize', :locals => {:post => post} %>
+  <% end -%>
+
